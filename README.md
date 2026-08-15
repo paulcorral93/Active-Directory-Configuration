@@ -3,7 +3,7 @@
 </p>
 
 <h1>Domain Controller/Active Directory in Azure</h1>
-This tutorial outlines how to set up a domain controller with Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines how to set up a domain controller with Active Directory within Azure Virtual Machines. Active Directory is a Centralized system for managing users and/or computers. It can be used to control permissions and security across an organization. A key tool in a Windows-based IT environment. <br />
 
 
 
@@ -54,6 +54,6 @@ Use Remote Desktop to log in to the Virtual Machine. When the Server Manager win
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Active Directory is now installed and ready to use. 
 </p>
 <br />
