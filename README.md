@@ -51,7 +51,9 @@ Use Remote Desktop to log in to the Virtual Machine. When the Server Manager win
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="497" height="367" alt="Screenshot 2026-08-14 173544" src="https://github.com/user-attachments/assets/2694220c-f638-49ad-83de-57645077cfe7" />
+<img width="1384" height="633" alt="Screenshot 2026-08-14 173603" src="https://github.com/user-attachments/assets/31421fb5-5e8a-442d-ac49-6e54c3c6aa0b" />
+
 </p>
 <p>
 Active Directory is now installed and ready to use. 
