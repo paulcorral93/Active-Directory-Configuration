@@ -40,34 +40,13 @@ Create a Resource Group in Azure to create a Virtual Machine and a Virtual Netwo
 
 <p>
 <img width="404" height="481" alt="Screenshot 2026-08-13 223539" src="https://github.com/user-attachments/assets/7169706e-e13c-4abc-85e1-1c12541c8021" />
+<img width="1392" height="659" alt="Screenshot 2026-08-14 172316" src="https://github.com/user-attachments/assets/bedd0630-02da-4d4d-8df5-8c8a9be4bdc0" />
+<img width="582" height="427" alt="Screenshot 2026-08-14 171343" src="https://github.com/user-attachments/assets/9a8b2f4f-fddb-45e9-90d1-95767c9301db" />
+<img width="583" height="424" alt="Screenshot 2026-08-14 171613" src="https://github.com/user-attachments/assets/cc6c4bf4-2b75-4062-9c39-b461258ac100" />
 
 </p>
 <p>
-Use Remote Desktop to log in to the Virtual Machine to install Active Directory. The next step would be to promote the server to a Domain Controller while creating a new forest. The name can be anything, but be sure to remember it.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Use Remote Desktop to log in to the Virtual Machine. When the Server Manager window opens, click on Add roles and features to install Active Directory. The next step would be to promote the server to a Domain Controller while creating a new forest. The name and password can be anything, but be sure to remember it.
 </p>
 <br />
 
