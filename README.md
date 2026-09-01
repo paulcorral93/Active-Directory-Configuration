@@ -3,7 +3,7 @@
 </p>
 
 <h1>Domain Controller/Active Directory in Azure</h1>
-This tutorial outlines how to set up a domain controller with Active Directory within Azure Virtual Machines. Active Directory is a Centralized system for managing users and/or computers. It can be used to control permissions and security across an organization. A key tool in a Windows-based IT environment. <br />
+This tutorial outlines how to set up a domain controller with Active Directory within Azure Virtual Machines. Active Directory is a Centralized system for managing users and/or computers. It can control permissions and security across an organization. It is a key tool in a Windows-based IT environment. <br />
 
 
 
@@ -18,31 +18,34 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
-- Windows 10 (21H2)
+- Windows 11 (21H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Use Azure to create a domain controller
+- Use Azure to create a virtual machine that will be used for a domain controller
 - Install Active Directory on the domain controller 
 
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img width="1598" height="763" alt="Screenshot 2026-08-13 214629" src="https://github.com/user-attachments/assets/e7f54f3a-94cf-472f-9ddc-c15b8e7cb305" />
-<img width="1599" height="765" alt="Screenshot 2026-08-13 214038" src="https://github.com/user-attachments/assets/acea72eb-820f-4a1c-8b98-c2f14761786b" />
-<img width="1599" height="762" alt="Screenshot 2026-08-13 213958" src="https://github.com/user-attachments/assets/544ad00a-783b-4dec-90ce-30ef61330530" />
+<img width="1597" height="763" alt="image" src="https://github.com/user-attachments/assets/9c99f5f8-72cb-48ff-b9c0-4f6d8dbbc3b1" />
 
 </p>
 <p>
-Create a Resource Group in Azure to create a Virtual Machine and a Virtual Network. The Virtual Machine must be running Windows Server. I used Windows Server 11. Save login information so that you can log into the Virtual Machine via Remote Desktop 
+1. Begin by creating a Resource Group in Azure to create a Virtual Machine. 
+<p/>
 <br />
 
 <p>
-<img width="404" height="481" alt="Screenshot 2026-08-13 223539" src="https://github.com/user-attachments/assets/7169706e-e13c-4abc-85e1-1c12541c8021" />
-<img width="1392" height="659" alt="Screenshot 2026-08-14 172316" src="https://github.com/user-attachments/assets/bedd0630-02da-4d4d-8df5-8c8a9be4bdc0" />
-<img width="582" height="427" alt="Screenshot 2026-08-14 171343" src="https://github.com/user-attachments/assets/9a8b2f4f-fddb-45e9-90d1-95767c9301db" />
-<img width="583" height="424" alt="Screenshot 2026-08-14 171613" src="https://github.com/user-attachments/assets/cc6c4bf4-2b75-4062-9c39-b461258ac100" />
+
+</p>
+<p>
+  2. The Virtual Machine must be running Windows Server. I used Windows Server 11. Save login information so that you can log into the Virtual Machine via Remote Desktop 
+</p>
+  <br />
+
+<p>
 
 </p>
 <p>
@@ -51,8 +54,6 @@ Use Remote Desktop to log in to the Virtual Machine. When the Server Manager win
 <br />
 
 <p>
-<img width="497" height="367" alt="Screenshot 2026-08-14 173544" src="https://github.com/user-attachments/assets/2694220c-f638-49ad-83de-57645077cfe7" />
-<img width="1384" height="633" alt="Screenshot 2026-08-14 173603" src="https://github.com/user-attachments/assets/31421fb5-5e8a-442d-ac49-6e54c3c6aa0b" />
 
 </p>
 <p>
