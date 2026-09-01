@@ -38,18 +38,76 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 <br />
 
 <p>
+<img width="1182" height="726" alt="image" src="https://github.com/user-attachments/assets/1f199216-7a38-4d8a-8489-8674762bda5f" />
 
 </p>
 <p>
-  2. The Virtual Machine must be running Windows Server. I used Windows Server 11. Save login information so that you can log into the Virtual Machine via Remote Desktop 
+  2. The name of the Resource Group can be anything for the tutorial; I will use Active-Directory. For the Region box, it is important to ensure that any Virtual Machines (VMs) have the same region as your resource group. Then click Review + create
 </p>
-  <br />
+<br />
+
+<p>
+<img width="484" height="725" alt="image" src="https://github.com/user-attachments/assets/5b237dc1-d2db-43ab-8f27-dc69f2654fe4" />
+
+</p>
+<p>
+  3. Click Create.
+</p>
+<br />
+
+<p>
+<img width="1599" height="770" alt="image" src="https://github.com/user-attachments/assets/a68ea6e0-45a3-451c-910b-3e0547287b31" />
+
+</p>
+<p>
+  4. Now that we have a Resource Group, in Azure, open the Virtual Machines tab and click Create a Virtual Machine.
+</p>
+<br />
 
 <p>
 
 </p>
 <p>
-Use Remote Desktop to log in to the Virtual Machine. When the Server Manager window opens, click on Add roles and features to install Active Directory. The next step would be to promote the server to a Domain Controller while creating a new forest. The name and password can be anything, but be sure to remember it.
+Active Directory is now installed and ready to use. 
+</p>
+<br />
+<p>
+
+</p>
+<p>
+Active Directory is now installed and ready to use. 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+Active Directory is now installed and ready to use. 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+Active Directory is now installed and ready to use. 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+Active Directory is now installed and ready to use. 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+Active Directory is now installed and ready to use. 
 </p>
 <br />
 
