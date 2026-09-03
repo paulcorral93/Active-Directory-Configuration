@@ -219,19 +219,127 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 <br />
 
 <p>
-<img width="822" height="591" alt="image" src="https://github.com/user-attachments/assets/e4d3583f-bf32-41fb-a7b1-c5f4e0964812" />
+<img width="815" height="594" alt="image" src="https://github.com/user-attachments/assets/c874279c-74eb-4dc6-980c-64994cc45202" />
 
 </p>
 <p>
-  3. Click Create.
+  3. Click Next.
 </p>
 <br />
 
 <p>
-<img width="822" height="591" alt="image" src="https://github.com/user-attachments/assets/e4d3583f-bf32-41fb-a7b1-c5f4e0964812" />
+<img width="809" height="589" alt="image" src="https://github.com/user-attachments/assets/bf7cb07b-a180-4638-ba5b-d64e5ff3b70d" />
 
 </p>
 <p>
-  3. Click Create.
+  3. Click Next.
+</p>
+<br />
+
+<p>
+<img width="821" height="593" alt="image" src="https://github.com/user-attachments/assets/ac316c3d-e5a1-4428-827c-7fd228388c11" />
+
+</p>
+<p>
+  3. Click the box to restart the destination server automatically if required
+</p>
+<br />
+
+<p>
+<img width="844" height="577" alt="image" src="https://github.com/user-attachments/assets/45c190a8-41fb-4e9e-9b56-420e0060edb0" />
+
+</p>
+<p>
+  3. Click Yes.
+</p>
+<br />
+
+<p>
+<img width="830" height="595" alt="image" src="https://github.com/user-attachments/assets/e082c333-1f64-48f8-8fae-2633f0e7d050" />
+
+</p>
+<p>
+  3. Click Install.
+</p>
+<br />
+
+<p>
+<img width="819" height="617" alt="image" src="https://github.com/user-attachments/assets/bed55790-5958-44e2-ad9e-a49f8dbfff44" />
+
+</p>
+<p>
+  3. Click Close.
+</p>
+<br />
+
+<p>
+<img width="1564" height="767" alt="image" src="https://github.com/user-attachments/assets/ef3aabb2-9f26-472d-b2be-4d5c722e3b43" />
+
+</p>
+<p>
+  3. Click the Flag with the "!" (exclamation point) to drop down a menu, then click on Promote this Server to Domain Controller 
+</p>
+<br />
+
+<p>
+<img width="779" height="575" alt="image" src="https://github.com/user-attachments/assets/1459596d-86bb-4b84-8924-91ca0f15ffdf" />
+
+</p>
+<p>
+  3. In this window, click Add a new Forest and name the new forest. It can be anything, but for the sake of this guide, I will input  "mydomain.com" for the forest name. Click Next.
+</p>
+<br />
+
+<p>
+<img width="777" height="592" alt="image" src="https://github.com/user-attachments/assets/d1bca77d-cbc6-4590-a446-1d1f3b6450a4" />
+
+</p>
+<p>
+  3. Input a password in case you ever need to restore anything on the Domain Controller. Click Next.
+</p>
+<br />
+
+<p>
+<img width="776" height="580" alt="image" src="https://github.com/user-attachments/assets/ecac29c5-9856-4e3c-a5af-0a46a11031ba" />
+
+</p>
+<p>
+  3. Ensure the Create DNS Delegation box is unchecked. Click Next.
+</p>
+<br />
+
+<p>
+<img width="792" height="582" alt="image" src="https://github.com/user-attachments/assets/7ff5b729-c018-41e5-ba42-c03a7f85cfc2" />
+
+</p>
+<p>
+  3. Click Next.
+</p>
+<br />
+
+<p>
+<img width="783" height="577" alt="image" src="https://github.com/user-attachments/assets/b3b6bdc7-df15-4989-a923-d90ef82bb759" />
+
+</p>
+<p>
+  3. Click Next.
+</p>
+<br />
+
+<p>
+<img width="778" height="577" alt="image" src="https://github.com/user-attachments/assets/e86e9129-5efe-4ad0-883e-1ae6f4ab6cb6" />
+
+</p>
+<p>
+  3. Click Next.
+</p>
+<br />
+
+<p>
+<img width="787" height="588" alt="image" src="https://github.com/user-attachments/assets/3a412848-734d-4a3e-80fc-43decc0e5635" />
+
+</p>
+<p>
+  3. Click Install. The VM will restart after installation, and Remote Desktop will force-close. Give it a minute or two for the VM to restart before attempting to log back in.
 </p>
 <br />
