@@ -343,3 +343,29 @@ This tutorial outlines how to set up a domain controller with Active Directory w
   3. Click Install. The VM will restart after installation, and Remote Desktop will force-close. Give it a minute or two for the VM to restart before attempting to log back in.
 </p>
 <br />
+
+<p>
+<img width="891" height="806" alt="image" src="https://github.com/user-attachments/assets/ed126a4b-b250-478a-9dfa-2051b89ca9ca" />
+
+</p>
+<p>
+  3. Click the Start menu and search for Remote Desktop Connection. Run the Program.
+</p>
+<br />
+<p>
+  <img width="418" height="492" alt="image" src="https://github.com/user-attachments/assets/722c7dc1-11e3-4244-b962-aec9e2de1109" />
+    
+</p>
+<p>
+  3. The VM has been turned into a Domain Controller now so when we access it, we have to specify which user we will be using to log in. You can do that by typing the domain we used to create the forest earlier. I used "mydomain.com" so I will input "mydomain.com\Domain Controller. Click Connect. The next window will ask for the password; it will be the same one you used before.
+</p>
+<br />
+
+<p>
+<img width="1576" height="804" alt="image" src="https://github.com/user-attachments/assets/013f5c93-bb89-48bc-95dd-2d3d7d6c11f5" />
+      
+</p>
+<p>
+  3. Congrats! You now have a Domain Controller with Active Directory.
+</p>
+<br />
