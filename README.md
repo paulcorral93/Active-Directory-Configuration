@@ -142,12 +142,84 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 </p>
 <p>
       11.  To fill in the Computer section, you will need to grab the Public IP address from the Domain Controller we created in Azure. See steps () 
-      Verify that the window is extended to show options, and input the user name for the VM. CLick OK
+      Verify that the window is expanded to show options, and enter the VM username. Click OK. The next window will ask for the password created for the VM. Enter it and click OK.
 </p>
 <br />
 
 <p>
-<img width="484" height="725" alt="image" src="https://github.com/user-attachments/assets/5b237dc1-d2db-43ab-8f27-dc69f2654fe4" />
+<img width="404" height="401" alt="image" src="https://github.com/user-attachments/assets/00d1949c-6230-4de8-b71a-265c691170dc" />
+
+</p>
+<p>
+      10.   Click Yes
+</p>
+<br />
+
+<p>
+<img width="827" height="791" alt="image" src="https://github.com/user-attachments/assets/fa870db6-b61b-4521-b83c-3e2c2353ecb0" />
+
+</p>
+<p>
+  3. Now that we are inside the VM, we will install Active Directory on it. Click the Start menu in the VM and search for Server Manager. Double-click to run the program 
+</p>
+<br />
+
+<p>
+<img width="1580" height="848" alt="image" src="https://github.com/user-attachments/assets/8fd1ec91-d321-415d-b22b-e626a8a47a0d" />
+
+</p>
+<p>
+  3. Click Add Roles and Features.
+</p>
+<br />
+
+<p>
+<img width="828" height="593" alt="image" src="https://github.com/user-attachments/assets/f393c14c-ad85-4c55-97de-76479b2f326d" />
+
+</p>
+<p>
+  3. Ensure Role-based or Feature-based is selected, and click Next.
+</p>
+<br />
+
+<p>
+<img width="804" height="582" alt="image" src="https://github.com/user-attachments/assets/93694abc-129a-4df4-80be-34aa2a688ae6" />
+
+</p>
+<p>
+  3. Ensure that the VM server we created is the one selected, and click Next.
+</p>
+<br />
+
+<p>
+<img width="801" height="585" alt="image" src="https://github.com/user-attachments/assets/8577cf57-2a21-4c1d-88ee-110437808454" />
+
+</p>
+<p>
+  3. Select the box for Active Directory Domain Services, and a window should pop up.
+</p>
+<br />
+
+<p>
+<img width="821" height="588" alt="image" src="https://github.com/user-attachments/assets/1657aa50-24be-4cb0-9957-9062efcb7981" />
+
+</p>
+<p>
+  3. Click Add Features.
+</p>
+<br />
+
+<p>
+<img width="811" height="585" alt="image" src="https://github.com/user-attachments/assets/1b0c3a58-f6ef-4157-be05-5e5e8364326e" />
+
+</p>
+<p>
+  3. It will return to this page when selected. Click Next.
+</p>
+<br />
+
+<p>
+<img width="822" height="591" alt="image" src="https://github.com/user-attachments/assets/e4d3583f-bf32-41fb-a7b1-c5f4e0964812" />
 
 </p>
 <p>
@@ -156,34 +228,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 <br />
 
 <p>
-<img width="484" height="725" alt="image" src="https://github.com/user-attachments/assets/5b237dc1-d2db-43ab-8f27-dc69f2654fe4" />
-
-</p>
-<p>
-  3. Click Create.
-</p>
-<br />
-
-<p>
-<img width="484" height="725" alt="image" src="https://github.com/user-attachments/assets/5b237dc1-d2db-43ab-8f27-dc69f2654fe4" />
-
-</p>
-<p>
-  3. Click Create.
-</p>
-<br />
-
-<p>
-<img width="484" height="725" alt="image" src="https://github.com/user-attachments/assets/5b237dc1-d2db-43ab-8f27-dc69f2654fe4" />
-
-</p>
-<p>
-  3. Click Create.
-</p>
-<br />
-
-<p>
-<img width="484" height="725" alt="image" src="https://github.com/user-attachments/assets/5b237dc1-d2db-43ab-8f27-dc69f2654fe4" />
+<img width="822" height="591" alt="image" src="https://github.com/user-attachments/assets/e4d3583f-bf32-41fb-a7b1-c5f4e0964812" />
 
 </p>
 <p>
