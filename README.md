@@ -113,7 +113,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-      9. Go back to the Azure homepage and double-click on the VM tab.
+      10. Go back to the Azure homepage and double-click on the VM tab.
 </p>
 <br />
 
@@ -122,7 +122,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-      9. Grab the Public IP address displayed on the right side of the window: 20.84.120.172. Write this down on a Post-it note or notes app on a phone or tablet; you will use this later to access the Domain Controller.
+      11. Grab the Public IP address displayed on the right side of the window: 20.84.120.172. Write this down on a Post-it note or notes app on a phone or tablet; you will use this later to access the Domain Controller.
 </p>
 <br />
 
@@ -132,7 +132,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-      10. Open the Start Menu on your computer and in the search bar type Remote Desktop Connection. Run the Application to continue.     
+      12. Open the Start Menu on your computer and in the search bar type Remote Desktop Connection. Run the Application to continue.     
 </p>
 <br />
 
@@ -141,7 +141,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
      
 </p>
 <p>
-      11.  To fill in the Computer section, you will need to grab the Public IP address from the Domain Controller we created in Azure. See steps () 
+      13.  To fill in the Computer section, you will need to grab the Public IP address from the Domain Controller we created in Azure. See steps () 
       Verify that the window is expanded to show options, and enter the VM username. Click OK. The next window will ask for the password created for the VM. Enter it and click OK.
 </p>
 <br />
@@ -151,7 +151,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-      10.   Click Yes
+      14.   Click Yes
 </p>
 <br />
 
@@ -160,7 +160,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Now that we are inside the VM, we will install Active Directory on it. Click the Start menu in the VM and search for Server Manager. Double-click to run the program 
+      15. Now that we are inside the VM, we will install Active Directory on it. Click the Start menu in the VM and search for Server Manager. Double-click to run the program 
 </p>
 <br />
 
@@ -169,7 +169,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click Add Roles and Features.
+      16. Click Add Roles and Features.
 </p>
 <br />
 
@@ -178,7 +178,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Ensure Role-based or Feature-based is selected, and click Next.
+      17. Ensure Role-based or Feature-based is selected, and click Next.
 </p>
 <br />
 
@@ -187,7 +187,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Ensure that the VM server we created is the one selected, and click Next.
+      18. Ensure that the VM server we created is the one selected, and click Next.
 </p>
 <br />
 
@@ -196,7 +196,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Select the box for Active Directory Domain Services, and a window should pop up.
+      19. Select the box for Active Directory Domain Services, and a window should pop up.
 </p>
 <br />
 
@@ -205,7 +205,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click Add Features.
+      20. Click Add Features.
 </p>
 <br />
 
@@ -214,7 +214,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. It will return to this page when selected. Click Next.
+      21. It will return to this page when selected. Click Next.
 </p>
 <br />
 
@@ -223,7 +223,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click Next.
+      22. Click Next.
 </p>
 <br />
 
@@ -232,7 +232,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click Next.
+      23. Click Next.
 </p>
 <br />
 
@@ -241,7 +241,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click the box to restart the destination server automatically if required
+      24. Click the box to restart the destination server automatically if required
 </p>
 <br />
 
@@ -250,7 +250,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click Yes.
+      25. Click Yes.
 </p>
 <br />
 
@@ -259,7 +259,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click Install.
+      26. Click Install.
 </p>
 <br />
 
@@ -268,7 +268,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click Close.
+      27. Click Close.
 </p>
 <br />
 
@@ -277,7 +277,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click the Flag with the "!" (exclamation point) to drop down a menu, then click on Promote this Server to Domain Controller 
+      28. Click the Flag with the "!" (exclamation point) to drop down a menu, then click on Promote this Server to Domain Controller 
 </p>
 <br />
 
@@ -286,7 +286,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. In this window, click Add a new Forest and name the new forest. It can be anything, but for the sake of this guide, I will input  "mydomain.com" for the forest name. Click Next.
+      29. In this window, click Add a new Forest and name the new forest. It can be anything, but for the sake of this guide, I will input  "mydomain.com" for the forest name. Click Next.
 </p>
 <br />
 
@@ -295,7 +295,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Input a password in case you ever need to restore anything on the Domain Controller. Click Next.
+      30. Input a password in case you ever need to restore anything on the Domain Controller. Click Next.
 </p>
 <br />
 
@@ -304,7 +304,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Ensure the Create DNS Delegation box is unchecked. Click Next.
+      31. Ensure the Create DNS Delegation box is unchecked. Click Next.
 </p>
 <br />
 
@@ -313,7 +313,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click Next.
+      32. Click Next.
 </p>
 <br />
 
@@ -322,7 +322,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click Next.
+      33. Click Next.
 </p>
 <br />
 
@@ -331,7 +331,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click Next.
+      34. Click Next.
 </p>
 <br />
 
@@ -339,8 +339,8 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 <img width="787" height="588" alt="image" src="https://github.com/user-attachments/assets/3a412848-734d-4a3e-80fc-43decc0e5635" />
 
 </p>
-<p>
-  3. Click Install. The VM will restart after installation, and Remote Desktop will force-close. Give it a minute or two for the VM to restart before attempting to log back in.
+<p>     
+      35. Click Install. The VM will restart after installation, and Remote Desktop will force-close. Give it a minute or two for the VM to restart before attempting to log back in.
 </p>
 <br />
 
@@ -349,7 +349,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
 
 </p>
 <p>
-  3. Click the Start menu and search for Remote Desktop Connection. Run the Program.
+      36. Click the Start menu and search for Remote Desktop Connection. Run the Program.
 </p>
 <br />
 <p>
@@ -357,7 +357,7 @@ This tutorial outlines how to set up a domain controller with Active Directory w
     
 </p>
 <p>
-  3. The VM has been turned into a Domain Controller now so when we access it, we have to specify which user we will be using to log in. You can do that by typing the domain we used to create the forest earlier. I used "mydomain.com" so I will input "mydomain.com\Domain Controller. Click Connect. The next window will ask for the password; it will be the same one you used before.
+      37. The VM has been turned into a Domain Controller now so when we access it, we have to specify which user we will be using to log in. You can do that by typing the domain we used to create the forest earlier. I used "mydomain.com" so I will input "mydomain.com\Domain Controller. Click Connect. The next window will ask for the password; it will be the same one you used before.
 </p>
 <br />
 
@@ -366,6 +366,6 @@ This tutorial outlines how to set up a domain controller with Active Directory w
       
 </p>
 <p>
-  3. Congrats! You now have a Domain Controller with Active Directory.
+      38. Congrats! You now have a Domain Controller with Active Directory.
 </p>
 <br />
